@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoteDetailsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons.layout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="#D81B60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/pageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="Add Notes"
+            android:textAllCaps="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backpressImage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/backpressImage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_arrow_back_24" />
+
+        <ImageView
+            android:id="@+id/saveNotes"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_basline_add_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <EditText
+        android:id="@+id/addTitle"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_corners"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:keyboardNavigationCluster="false"
+        android:padding="10dp"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons.layout" />
+
+
+    <EditText
+        android:id="@+id/addContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_corners"
+        android:gravity="start"
+        android:hint="Content"
+        android:inputType="textPersonName"
+        android:keyboardNavigationCluster="false"
+        android:padding="10dp"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/deletNote"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addTitle" />
+
+    <TextView
+        android:id="@+id/deletNote"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="32dp"
+        android:text="Delete Note"
+        android:textSize="16sp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        app:layout_goneMarginBottom="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

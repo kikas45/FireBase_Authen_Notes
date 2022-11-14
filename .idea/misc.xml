@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/drawable/ic_3d_rotation_24.xml" value="0.178" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/drawable/ic_basline_add_24.xml" value="0.1725" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/drawable/rounded_corners.xml" value="0.151" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/activity_create_account.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/activity_edit_note.xml" value="0.15185185185185185" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/activity_note_details.xml" value="0.14" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/activity_splash.xml" value="0.18" />
+        <entry key="..\:/Users/HP/Desktop/Andriod Apps/Auth_and_Note_App/app/src/main/res/layout/item_recycler_notes.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
